@@ -10,7 +10,7 @@ RUN cd ..
 RUN npm i
  
 ENV HOST 0.0.0.0
-EXPOSE 8080
+EXPOSE 5000
  
 # start command
  CMD [ "npm", "run", "start" ]
